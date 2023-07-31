@@ -29,13 +29,13 @@ const icon = (
         textAlign: "center",
       }}
     >
-      <Zoom in={true}>
+      <Zoom in={true} style={{ transitionDelay: "500ms" }}>
         <span style={{ fontSize: "1.5rem" }}>Find Your Path</span>
       </Zoom>
-      <Zoom in={true} style={{ transitionDelay: "500ms" }}>
+      <Zoom in={true} style={{ transitionDelay: "1000ms" }}>
         <span style={{ fontSize: "1.5rem" }}>Shape Your Future</span>
       </Zoom>
-      <Zoom in={true} style={{ transitionDelay: "1000ms" }}>
+      <Zoom in={true} style={{ transitionDelay: "1500ms" }}>
         <span style={{ fontSize: "1.5rem" }}>Join The Programming Project</span>
       </Zoom>
     </Box>
