@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.BlueBoy{
+  color: blue;
+    background-color: lightgray;
+    font-size: 16px;
+}
