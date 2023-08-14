@@ -1,0 +1,56 @@
+/* Header.css */
+.header {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.left-links li {
+  margin-right: 20px;
+}
+
+.left-links li:last-child {
+  margin-right: 0;
+}
+
+.left-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.left-links li a:hover {
+  color: gray;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
