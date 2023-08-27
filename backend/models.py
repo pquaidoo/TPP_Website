@@ -22,3 +22,29 @@ class Update_Member(BaseModel):
     middleName: Optional[str]
     lastName: Optional[str]
     roles: Optional[List[Role]]
+    
+################################################################
+
+#Project Section:
+
+class Season(str, Enum):
+    autumn = "autumn"
+    winter = "winter"
+    spring = "spring"
+    summer = "summer"   
+
+class Project_date(BaseModel):
+    season: Season
+    year: int
+
+class Projects(BaseModel):
+    project_name: str
+    project_Contributors: List[str]
+    project_url: str
+    project_date: Project_date
+    
+
+class update_projects(BaseModel):
+    project_name: Optional[str]
+    project_Contributors: Optional[List[str]]
+    project_url: Optional[str]

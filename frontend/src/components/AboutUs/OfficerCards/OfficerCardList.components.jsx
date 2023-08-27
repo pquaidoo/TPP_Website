@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getMembers } from "../../../api/api.components";
+import { getMembers } from "../../api/api.components";
 import OfficerCard from "./OfficerCard.components";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
