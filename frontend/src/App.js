@@ -8,25 +8,25 @@ function App() {
           <SimpleZoom />
           <PictureWithTextbox/>
           <BlueBoy />
-          
+          <h1>Project</h1>
         </div>;
 
   
 }
 // App.js
-import React from 'react';
-import Header from './header';
-import Footer from './footer';
+// import React from 'react';
+// import Header from './header';
+// import Footer from './footer';
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      {/* Add other components and content of your website */}
-      <Footer />
-    </div>
-  );
-};
+// const App = () => {
+//   return (
+//     <div>
+//       <Header />
+//       {/* Add other components and content of your website */}
+//       <Footer />
+//     </div>
+//   );
+// };
 
 
 
