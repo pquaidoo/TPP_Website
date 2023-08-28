@@ -1,6 +1,7 @@
 // Header.js
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,7 +9,10 @@ const Header = () => {
       <nav>
         <ul className="left-links">
           <li>
-            <a href="#about">About Us</a>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
             <a href="#projects">Projects</a>

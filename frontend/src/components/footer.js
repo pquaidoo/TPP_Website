@@ -11,14 +11,18 @@ const Footer = () => {
           <p>If you have any questions, feel free to contact us.</p>
         </div>
         <div className="social-icons">
-          <a href="#">
-            <i className="fab fa-youtube"></i>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-youtube"> youtube</i>
           </a>
           <a href="#">
-            <i className="fab fa-tiktok"></i>
+            <i className="fab fa-tiktok">tiktok</i>
           </a>
           <a href="#">
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-instagram">instagram</i>
           </a>
         </div>
       </div>
