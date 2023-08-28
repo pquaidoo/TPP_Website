@@ -14,28 +14,35 @@ let OfficerCardList = () => {
   }, []);
 
   return (
-    <Carousel
-      autoPlay
-      infiniteLoop
-      interval={5000} //every 5seconds it'll switch
-      showThumbs={false}
-      showStatus={false}
-      showIndicators={false}
+    <div
+      style={{
+        backgroundImage: "linear-gradient(to bottom right, #647DEE, #7F53AC)",
+        height: "100%", // Adjust the height as needed
+      }}
     >
-      {officer.map((officer, index) => (
-        <div
-          key={index}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100%",
-          }}
-        >
-          <OfficerCard officer={officer} />
-        </div>
-      ))}
-    </Carousel>
+      <Carousel
+        autoPlay
+        infiniteLoop
+        interval={5000}
+        showThumbs={false}
+        showStatus={false}
+        showIndicators={false}
+      >
+        {officer.map((officer, index) => (
+          <div
+            key={index}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100%",
+            }}
+          >
+            <OfficerCard officer={officer} />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 

@@ -1,12 +1,14 @@
 import React from "react";
-import HeroBanner from "../slogan.components";
 import Header from "../header";
+import Footer from "../footer";
+import AboutUs from "../AboutUs/AboutUs.component";
 
 const About = () => {
   return (
     <div>
       <Header />
-      <HeroBanner />
+      <AboutUs />
+      <Footer />
     </div>
   );
 };
