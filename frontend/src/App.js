@@ -4,13 +4,15 @@ import "./App.css";
 // import PictureWithTextbox from "./components/map.components";
 // import BlueBoy from "./components/project.components";
 // import AboutUs from "./components/AboutUs/AboutUs.component";
-import ProjectPage from "./components/projectPage/ProjectPage.components";
-import PastProjects from "./components/projectPage/PastProjects.component";
-import SimpleZoom from "./components/slogan.components";
-import PictureWithTextbox from "./components/map.components";
-import BlueBoy from "./components/project.components";
-import Header from "./header";
-import Footer from "./footer";
+// import ProjectPage from "./components/projectPage/ProjectPage.components";
+// import PastProjects from "./components/projectPage/PastProjects.component";
+// import SimpleZoom from "./components/slogan.components";
+// import PictureWithTextbox from "./components/map.components";
+// import BlueBoy from "./components/project.components";
+// import Header from "./header";
+// import Footer from "./footer";
+import React from "react";
+import AppRouter from "./AppRouter";
 
 function App() {
   return (
@@ -18,14 +20,15 @@ function App() {
       {/* <SimpleZoom />
       <PictureWithTextbox />
       <BlueBoy />
-      <AboutUs /> */}
+      <AboutUs /> 
       <ProjectPage />
       <PastProjects />
       <SimpleZoom />
       <PictureWithTextbox />
       <BlueBoy />
       <Header />
-      <Footer />
+      <Footer />*/}
+      <AppRouter />
     </div>
   );
 }
