@@ -2,6 +2,7 @@ import * as React from "react";
 import Card from "@mui/material/Card";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
+import "../pages/projects/projects.css";
 
 const squareCardStyles = {
   width: "500px", // Set the width of the square card
@@ -35,7 +36,7 @@ export default function ProjectPage() {
   };
 
   return (
-    <div style={projectCardContainerStyles}>
+    <div style={projectCardContainerStyles} className="projects">
       <ProjectCard to="/projects/current">Current Project</ProjectCard>
       <ProjectCard to="/projects/past">Past Projects</ProjectCard>
     </div>

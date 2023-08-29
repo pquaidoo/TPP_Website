@@ -1,0 +1,27 @@
+.project-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #a593e0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  text-decoration: none; /* Remove default link underline */
+  color: inherit; /* Inherit text color */
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}

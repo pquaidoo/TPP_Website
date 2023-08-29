@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getProjects } from "../../api/api.components";
-import PastProjectList from "../pastProjects/pastProjectsList.components";
-import SearchBox from "./pastSearchBox.components";
+import PastProjectList from "../projectList/ProjectsList.components";
+import SearchBox from "../projectList/SearchBox.components";
+import "../../pages/projects/projects.css";
 
 let PastProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -35,7 +36,7 @@ let PastProjects = () => {
   console.log(projects);
   console.log("test");
   return (
-    <div>
+    <div className="projects">
       <SearchBox onChangeHandler={onSearchChange} />
       <PastProjectList projects={filteredList} />;
     </div>
