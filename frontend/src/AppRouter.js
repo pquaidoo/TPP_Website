@@ -1,11 +1,11 @@
 // src/AppRouter.js
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Projects from "./components/pages/projects/Projects";
-import PastProjects from "./components/pages/projects/PastProject";
-import CurrentProjects from "./components/pages/projects/CurrentProjects";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/projects/Projects";
+import PastProjects from "./pages/projects/PastProject";
+import CurrentProjects from "./pages/projects/CurrentProjects";
 
 const AppRouter = () => {
   console.log("AppRouter");
