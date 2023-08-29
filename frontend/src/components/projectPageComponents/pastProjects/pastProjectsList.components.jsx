@@ -1,17 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { getProjects } from "../api/api.components";
+import React from "react";
 
-let PastProjects = () => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    getProjects().then((response) => {
-      setProjects(response.data);
-    });
-  }, []);
-
-  console.log(projects);
-  console.log("test");
+let pastList = ({ projects }) => {
   return (
     <div>
       {projects.map((project, index) => (
@@ -34,4 +23,4 @@ let PastProjects = () => {
   );
 };
 
-export default PastProjects;
+export default pastList;

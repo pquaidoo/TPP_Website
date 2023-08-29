@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../header";
 import Footer from "../../footer";
-import ProjectHistory from "../../projectPage/ProjectPage.components";
+import ProjectHistory from "../../projectPageComponents/ProjectPage.components";
 
 const Projects = () => {
   return (
