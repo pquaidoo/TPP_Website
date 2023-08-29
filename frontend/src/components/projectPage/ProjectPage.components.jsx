@@ -20,11 +20,11 @@ const squareCardStyles = {
 
 function ProjectCard({ children, to }) {
   return (
-    <Card sx={squareCardStyles}>
-      <Link to={to} style={{ textDecoration: "none", color: "inherit" }}>
+    <Link to={to} style={{ textDecoration: "none", color: "inherit" }}>
+      <Card sx={squareCardStyles}>
         <Box p={2}>{children}</Box>
-      </Link>
-    </Card>
+      </Card>
+    </Link>
   );
 }
 
