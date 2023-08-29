@@ -38,7 +38,7 @@ let PastProjects = () => {
   return (
     <div className="projects">
       <SearchBox onChangeHandler={onSearchChange} />
-      <PastProjectList projects={filteredList} />;
+      <PastProjectList projects={filteredList} />
     </div>
   );
 };

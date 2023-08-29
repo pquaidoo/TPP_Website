@@ -1,16 +1,27 @@
 .project-list {
-  width: 85vw;
+  width: 100vw;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  display: flex; /* Change the display to flex */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  /* justify-content: space-between; Distribute items evenly with space between them */
+  gap: 20px; /* Set gap between items */
+  justify-content: center;
+}
+
+/* Media query for screens with maximum width of 768px */
+@media (max-width: 768px) {
+  .project-list {
+    justify-content: center; /* Center items in a single column */
+  }
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  padding: 25px;
+  /* padding: 25px; */
+  margin-top: 15px;
+  margin-bottom: 10px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
@@ -28,6 +39,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 10px;
   width: 100%;
   max-width: 300px; /* Adjust the width as needed */
   font-size: 14px;
