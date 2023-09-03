@@ -1,6 +1,6 @@
 // Header.js
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./header.css";
 
 const Header = () => {
   return (

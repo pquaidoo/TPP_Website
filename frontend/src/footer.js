@@ -1,6 +1,6 @@
 // Footer.js
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -11,9 +11,15 @@ const Footer = () => {
           <p>If you have any questions, feel free to contact us.</p>
         </div>
         <div className="social-icons">
-          <a href="#"><i className="fab fa-youtube"></i></a>
-          <a href="#"><i className="fab fa-tiktok"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#">
+            <i className="fab fa-youtube"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-tiktok"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
       <div className="to-top">
