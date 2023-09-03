@@ -16,7 +16,7 @@ function App() {
 // App.js
 // import React from 'react';
 // import Header from './header';
-// import Footer from './footer';
+// import Footer from './footer' n;
 
 // const App = () => {
 //   return (
