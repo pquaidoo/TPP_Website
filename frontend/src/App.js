@@ -11,8 +11,8 @@ import PictureWithTextbox from "./components/map.components";
 import BlueBoy from "./components/project.components";
 
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from './Header';
+import Footer from './Footer';
 
 
 
