@@ -18,10 +18,11 @@ const Footer = () => {
           >
             <i className="fab fa-youtube"> youtube</i>
           </a>
-          <a href="#">
-            <i className="fab fa-tiktok">tiktok</i>
-          </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/uwtprogramming/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-instagram">instagram</i>
           </a>
         </div>
