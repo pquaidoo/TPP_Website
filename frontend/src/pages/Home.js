@@ -1,6 +1,6 @@
 // src/pages/Home.js
 import React from "react";
-import Header from "../Header";
+import Header from "../components/Header";
 import HeroBanner from "../components/slogan.components";
 import Map from "../components/map.components";
 import Project from "../components/project.components";

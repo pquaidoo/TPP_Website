@@ -8,7 +8,7 @@ import PictureWithTextbox from "./components/map.components";
 import BlueBoy from "./components/project.components";
 
 import React from "react";
-import Header from "./Header";
+import Header from "./components/Header";
 import Footer from "./Footer";
 
 function App() {

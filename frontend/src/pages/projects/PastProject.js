@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../Header";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import PastProjects from "../../components/projectPageComponents/pastProjects/PastProjects.component";
 
