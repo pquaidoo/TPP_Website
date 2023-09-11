@@ -1,0 +1,53 @@
+.project-list {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex; /* Change the display to flex */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  /* justify-content: space-between; Distribute items evenly with space between them */
+  gap: 20px; /* Set gap between items */
+  justify-content: center;
+}
+
+/* Media query for screens with maximum width of 768px */
+@media (max-width: 768px) {
+  .project-list {
+    justify-content: center; /* Center items in a single column */
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  /* padding: 25px; */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  text-decoration: none; /* Remove default link underline */
+  color: inherit; /* Inherit text color */
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.search-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

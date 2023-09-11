@@ -1,0 +1,19 @@
+.projects {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, #647dee, #7f53ac);
+  text-align: center;
+}
+
+.title {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-size: 76px;
+  color: #0ccac4;
+  font-family: "Alfa Slab One", cursive;
+}
