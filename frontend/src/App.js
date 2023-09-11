@@ -1,15 +1,15 @@
 import "./App.css";
 
 import AppRouter from "./AppRouter";
-import ProjectPage from "./components/projectPage/ProjectPage.components";
-import PastProjects from "./components/projectPage/PastProjects.component";
-import SimpleZoom from "./components/slogan.components";
-import PictureWithTextbox from "./components/map.components";
-import BlueBoy from "./components/project.components";
+// import ProjectPage from "./components/projectPage/ProjectPage.components";
+// import PastProjects from "./components/projectPage/PastProjects.component";
+// import SimpleZoom from "./components/slogan.components";
+// import PictureWithTextbox from "./components/map.components";
+// import BlueBoy from "./components/project.components";
 
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./Footer";
+// import Header from "./components/Header";
+// import Footer from "./Footer";
 
 function App() {
   return (
